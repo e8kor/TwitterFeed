@@ -1,6 +1,6 @@
 package com.example
 
-import akka.actor.{Actor, ActorLogging, Props}
+import akka.actor.{ Actor, ActorLogging, Props }
 
 class PingActor extends Actor with ActorLogging {
   import PingActor._
